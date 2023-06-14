@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #EBE5CE ;
+    width: 100%;
+  }
+ 
+#root{
+    width: 100%;
+}
+
+  
+.fundo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #EBE5CE;
+}
+
+  .bloco{
+    background-color: #fff;
+    font-size: 11px;
+    color: #640F3D;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;  
+    width: 284px;
+    height: 410px;
+    border-radius: 20.1px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .pp{
+    margin-right: 170px;
+    font-size: 16px;
+    color: black ;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+  }
+  .pw{
+    margin-right: 98px;
+    font-size: 16px;
+    color: black ;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+  }
+  
+  .cadastro{
+   font-size: 20px;
+   color: #8D1042;
+  }
+
+  .cadastro:hover{
+    text-decoration: underline #8D1042;
+  }
+
+  .entrar{
+    border-radius: 27px;
+    background-color: #640F3D;
+    color: #fff;
+    font-size: 16px;
+    width: 95px;
+    height: 30PX;
+    font-family: 'Inter', sans-serif;
+    border: none;
+  }
+
+  .entrar:hover{
+    background-color: #8D1042;
+  }
+
+  #email, #senha,#nome{
+    border-radius: 20px;
+    background-color: #EBE5CE;
+    width: 250px ;
+    height: 25px;
+    resize: none;
+    border: none;
+    padding: 5px;
+  }
+
+ 
